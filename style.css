@@ -72,12 +72,23 @@ nav i{
 }
 
 div.capa{
-display: block;
-max-width: 80px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 4rem;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+div.capa img.logao{
+ position: absolute;
+ width: 30rem;
+ z-index: 1;
 }
 
 div.capa img.fundocapa{
-
+   max-height: 600px;
+  width: 100vw;
   filter: grayscale(80%);
 }
 
